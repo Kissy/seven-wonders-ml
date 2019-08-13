@@ -1,0 +1,829 @@
+[
+  {
+    "name": "Arena",
+    "type": {
+      "__type__": "COMMERCIAL"
+    },
+    "effect": {
+      "perBoardElement": {
+        "neighbors": [
+          "SELF"
+        ],
+        "gold": 3,
+        "points": 1,
+        "type": "WONDER_STAGES"
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "STONE": 2,
+        "ORE": 1
+      },
+      "structure": "Dispensary"
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Arena",
+    "type": {
+      "__type__": "COMMERCIAL"
+    },
+    "effect": {
+      "perBoardElement": {
+        "neighbors": [
+          "SELF"
+        ],
+        "gold": 3,
+        "points": 1,
+        "type": "WONDER_STAGES"
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "STONE": 2,
+        "ORE": 1
+      },
+      "structure": "Dispensary"
+    },
+    "minPlayerCount": 5
+  },
+  {
+    "name": "Arena",
+    "type": {
+      "__type__": "COMMERCIAL"
+    },
+    "effect": {
+      "perBoardElement": {
+        "neighbors": [
+          "SELF"
+        ],
+        "gold": 3,
+        "points": 1,
+        "type": "WONDER_STAGES"
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "STONE": 2,
+        "ORE": 1
+      },
+      "structure": "Dispensary"
+    },
+    "minPlayerCount": 7
+  },
+  {
+    "name": "Chamber of Commerce",
+    "type": {
+      "__type__": "COMMERCIAL"
+    },
+    "effect": {
+      "perBoardElement": {
+        "neighbors": [
+          "SELF"
+        ],
+        "gold": 2,
+        "points": 2,
+        "type": "CARD",
+        "cardType": [
+          {
+            "__type__": "MANUFACTURED_GOOD"
+          }
+        ]
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "CLAY": 2,
+        "PAPYRUS": 1
+      }
+    },
+    "minPlayerCount": 4
+  },
+  {
+    "name": "Chamber of Commerce",
+    "type": {
+      "__type__": "COMMERCIAL"
+    },
+    "effect": {
+      "perBoardElement": {
+        "neighbors": [
+          "SELF"
+        ],
+        "gold": 2,
+        "points": 2,
+        "type": "CARD",
+        "cardType": [
+          { "__type__": "MANUFACTURED_GOOD" }
+        ]
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "CLAY": 2,
+        "PAPYRUS": 1
+      }
+    },
+    "minPlayerCount": 6
+  },
+  {
+    "name": "Haven",
+    "type": {
+      "__type__": "COMMERCIAL"
+    },
+    "effect": {
+      "perBoardElement": {
+        "neighbors": [
+          "SELF"
+        ],
+        "gold": 1,
+        "points": 1,
+        "type": "CARD",
+        "cardType": [
+          "RAW_MATERIAL"
+        ]
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 1,
+        "ORE": 1,
+        "LOOM": 1
+      },
+      "structure": "Forum"
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Haven",
+    "type": {
+      "__type__": "COMMERCIAL"
+    },
+    "effect": {
+      "perBoardElement": {
+        "neighbors": [
+          "SELF"
+        ],
+        "gold": 1,
+        "points": 1,
+        "type": "CARD",
+        "cardType": [
+          "RAW_MATERIAL"
+        ]
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 1,
+        "ORE": 1,
+        "LOOM": 1
+      },
+      "structure": "Forum"
+    },
+    "minPlayerCount": 4
+  },
+  {
+    "name": "Lighthouse",
+    "type": {
+      "__type__": "COMMERCIAL"
+    },
+    "effect": {
+      "perBoardElement": {
+        "neighbors": [
+          "SELF"
+        ],
+        "gold": 1,
+        "points": 1,
+        "type": "CARD",
+        "cardType": [
+          { "__type__": "MANUFACTURED_GOOD" }
+        ]
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "STONE": 1,
+        "GLASS": 1
+      },
+      "structure": "Caravansery"
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Lighthouse",
+    "type": {
+      "__type__": "COMMERCIAL"
+    },
+    "effect": {
+      "perBoardElement": {
+        "neighbors": [
+          "SELF"
+        ],
+        "gold": 1,
+        "points": 1,
+        "type": "CARD",
+        "cardType": [
+          { "__type__": "MANUFACTURED_GOOD" }
+        ]
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "STONE": 1,
+        "GLASS": 1
+      },
+      "structure": "Caravansery"
+    },
+    "minPlayerCount": 6
+  },
+  {
+    "name": "Gardens",
+    "type": {
+      "__type__": "CIVILIAN"
+    },
+    "effect": {
+      "points": 5
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 1,
+        "CLAY": 2
+      },
+      "structure": "Statue"
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Gardens",
+    "type": {
+      "__type__": "CIVILIAN"
+    },
+    "effect": {
+      "points": 5
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 1,
+        "CLAY": 2
+      },
+      "structure": "Statue"
+    },
+    "minPlayerCount": 4
+  },
+  {
+    "name": "Palace",
+    "type": {
+      "__type__": "CIVILIAN"
+    },
+    "effect": {
+      "points": 8
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 1,
+        "STONE": 1,
+        "ORE": 1,
+        "CLAY": 1,
+        "GLASS": 1,
+        "LOOM": 1,
+        "PAPYRUS": 1
+      }
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Palace",
+    "type": {
+      "__type__": "CIVILIAN"
+    },
+    "effect": {
+      "points": 8
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 1,
+        "STONE": 1,
+        "ORE": 1,
+        "CLAY": 1,
+        "GLASS": 1,
+        "LOOM": 1,
+        "PAPYRUS": 1
+      }
+    },
+    "minPlayerCount": 7
+  },
+  {
+    "name": "Pantheon",
+    "type": {
+      "__type__": "CIVILIAN"
+    },
+    "effect": {
+      "points": 7
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "CLAY": 2,
+        "ORE": 1,
+        "GLASS": 1,
+        "LOOM": 1,
+        "PAPYRUS": 1
+      },
+      "structure": "Temple"
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Pantheon",
+    "type": {
+      "__type__": "CIVILIAN"
+    },
+    "effect": {
+      "points": 7
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "CLAY": 2,
+        "ORE": 1,
+        "GLASS": 1,
+        "LOOM": 1,
+        "PAPYRUS": 1
+      },
+      "structure": "Temple"
+    },
+    "minPlayerCount": 6
+  },
+  {
+    "name": "Senate",
+    "type": {
+      "__type__": "CIVILIAN"
+    },
+    "effect": {
+      "points": 6
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 2,
+        "STONE": 1,
+        "ORE": 1
+      },
+      "structure": "Library"
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Senate",
+    "type": {
+      "__type__": "CIVILIAN"
+    },
+    "effect": {
+      "points": 6
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 2,
+        "STONE": 1,
+        "ORE": 1
+      },
+      "structure": "Library"
+    },
+    "minPlayerCount": 5
+  },
+  {
+    "name": "Town Hall",
+    "type": {
+      "__type__": "CIVILIAN"
+    },
+    "effect": {
+      "points": 6
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "STONE": 2,
+        "ORE": 1,
+        "GLASS": 1
+      }
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Town Hall",
+    "type": {
+      "__type__": "CIVILIAN"
+    },
+    "effect": {
+      "points": 6
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "STONE": 2,
+        "ORE": 1,
+        "GLASS": 1
+      }
+    },
+    "minPlayerCount": 5
+  },
+  {
+    "name": "Town Hall",
+    "type": {
+      "__type__": "CIVILIAN"
+    },
+    "effect": {
+      "points": 6
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "STONE": 2,
+        "ORE": 1,
+        "GLASS": 1
+      }
+    },
+    "minPlayerCount": 6
+  },
+  {
+    "name": "Academy",
+    "type": {
+      "__type__": "SCIENTIFIC"
+    },
+    "effect": {
+      "science": "COMPASS"
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "STONE": 3,
+        "GLASS": 1
+      },
+      "structure": "School"
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Academy",
+    "type": {
+      "__type__": "SCIENTIFIC"
+    },
+    "effect": {
+      "science": "COMPASS"
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "STONE": 3,
+        "GLASS": 1
+      },
+      "structure": "School"
+    },
+    "minPlayerCount": 7
+  },
+  {
+    "name": "Lodge",
+    "type": {
+      "__type__": "SCIENTIFIC"
+    },
+    "effect": {
+      "science": "COMPASS"
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "CLAY": 2,
+        "LOOM": 1,
+        "PAPYRUS": 1
+      },
+      "structure": "Dispensary"
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Lodge",
+    "type": {
+      "__type__": "SCIENTIFIC"
+    },
+    "effect": {
+      "science": "COMPASS"
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "CLAY": 2,
+        "LOOM": 1,
+        "PAPYRUS": 1
+      },
+      "structure": "Dispensary"
+    },
+    "minPlayerCount": 6
+  },
+  {
+    "name": "Observatory",
+    "type": {
+      "__type__": "SCIENTIFIC"
+    },
+    "effect": {
+      "science": "WHEEL"
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "ORE": 2,
+        "LOOM": 1,
+        "GLASS": 1
+      },
+      "structure": "Laboratory"
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Observatory",
+    "type": {
+      "__type__": "SCIENTIFIC"
+    },
+    "effect": {
+      "science": "WHEEL"
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "ORE": 2,
+        "LOOM": 1,
+        "GLASS": 1
+      },
+      "structure": "Laboratory"
+    },
+    "minPlayerCount": 7
+  },
+  {
+    "name": "Study",
+    "type": {
+      "__type__": "SCIENTIFIC"
+    },
+    "effect": {
+      "science": "WHEEL"
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 1,
+        "LOOM": 1,
+        "PAPYRUS": 1
+      },
+      "structure": "School"
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Study",
+    "type": {
+      "__type__": "SCIENTIFIC"
+    },
+    "effect": {
+      "science": "WHEEL"
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 1,
+        "LOOM": 1,
+        "PAPYRUS": 1
+      },
+      "structure": "School"
+    },
+    "minPlayerCount": 5
+  },
+  {
+    "name": "University",
+    "type": {
+      "__type__": "SCIENTIFIC"
+    },
+    "effect": {
+      "science": "TABLET"
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 2,
+        "GLASS": 1,
+        "PAPYRUS": 1
+      },
+      "structure": "Library"
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "University",
+    "type": {
+      "__type__": "SCIENTIFIC"
+    },
+    "effect": {
+      "science": "TABLET"
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 2,
+        "GLASS": 1,
+        "PAPYRUS": 1
+      },
+      "structure": "Library"
+    },
+    "minPlayerCount": 4
+  },
+  {
+    "name": "Arsenal",
+    "type": {
+      "__type__": "MILITARY"
+    },
+    "effect": {
+      "military": 3
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 2,
+        "ORE": 1,
+        "LOOM": 1
+      }
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Arsenal",
+    "type": {
+      "__type__": "MILITARY"
+    },
+    "effect": {
+      "military": 3
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 2,
+        "ORE": 1,
+        "LOOM": 1
+      }
+    },
+    "minPlayerCount": 4
+  },
+  {
+    "name": "Arsenal",
+    "type": {
+      "__type__": "MILITARY"
+    },
+    "effect": {
+      "military": 3
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 2,
+        "ORE": 1,
+        "LOOM": 1
+      }
+    },
+    "minPlayerCount": 7
+  },
+  {
+    "name": "Circus",
+    "type": {
+      "__type__": "MILITARY"
+    },
+    "effect": {
+      "military": 3
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "STONE": 3,
+        "ORE": 1
+      },
+      "structure": "Training Ground"
+    },
+    "minPlayerCount": 4
+  },
+  {
+    "name": "Circus",
+    "type": {
+      "__type__": "MILITARY"
+    },
+    "effect": {
+      "military": 3
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "STONE": 3,
+        "ORE": 1
+      },
+      "structure": "Training Ground"
+    },
+    "minPlayerCount": 5
+  },
+  {
+    "name": "Circus",
+    "type": {
+      "__type__": "MILITARY"
+    },
+    "effect": {
+      "military": 3
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "STONE": 3,
+        "ORE": 1
+      },
+      "structure": "Training Ground"
+    },
+    "minPlayerCount": 6
+  },
+  {
+    "name": "Fortifications",
+    "type": {
+      "__type__": "MILITARY"
+    },
+    "effect": {
+      "military": 3
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "ORE": 3,
+        "STONE": 1
+      },
+      "structure": "Walls"
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Fortifications",
+    "type": {
+      "__type__": "MILITARY"
+    },
+    "effect": {
+      "military": 3
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "ORE": 3,
+        "STONE": 1
+      },
+      "structure": "Walls"
+    },
+    "minPlayerCount": 7
+  },
+  {
+    "name": "Siege Workshop",
+    "type": {
+      "__type__": "MILITARY"
+    },
+    "effect": {
+      "military": 3
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "CLAY": 3,
+        "WOOD": 1
+      },
+      "structure": "Laboratory"
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Siege Workshop",
+    "type": {
+      "__type__": "MILITARY"
+    },
+    "effect": {
+      "military": 3
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "CLAY": 3,
+        "WOOD": 1
+      },
+      "structure": "Laboratory"
+    },
+    "minPlayerCount": 5
+  }
+]

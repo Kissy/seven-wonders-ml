@@ -1,0 +1,923 @@
+[
+  {
+    "name": "Lumber Yard",
+    "type": {
+      "__type__": "RAW_MATERIAL"
+    },
+    "effect": {
+      "production": {
+        "WOOD": 1
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Lumber Yard",
+    "type": {
+      "__type__": "RAW_MATERIAL"
+    },
+    "effect": {
+      "production": {
+        "WOOD": 1
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 4
+  },
+  {
+    "name": "Stone Pit",
+    "type": {
+      "__type__": "RAW_MATERIAL"
+    },
+    "effect": {
+      "production": {
+        "STONE": 1
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Stone Pit",
+    "type": {
+      "__type__": "RAW_MATERIAL"
+    },
+    "effect": {
+      "production": {
+        "STONE": 1
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 5
+  },
+  {
+    "name": "Clay Pool",
+    "type": {
+      "__type__": "RAW_MATERIAL"
+    },
+    "effect": {
+      "production": {
+        "CLAY": 1
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Clay Pool",
+    "type": {
+      "__type__": "RAW_MATERIAL"
+    },
+    "effect": {
+      "production": {
+        "CLAY": 1
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 5
+  },
+  {
+    "name": "Ore Vein",
+    "type": {
+      "__type__": "RAW_MATERIAL"
+    },
+    "effect": {
+      "production": {
+        "ORE": 1
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Ore Vein",
+    "type": {
+      "__type__": "RAW_MATERIAL"
+    },
+    "effect": {
+      "production": {
+        "ORE": 1
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 4
+  },
+  {
+    "name": "Tree Farm",
+    "type": {
+      "__type__": "RAW_MATERIAL"
+    },
+    "effect": {
+      "production": {
+        "WOOD": 1,
+        "CLAY": 1
+      }
+    },
+    "cost": {
+      "gold": 1,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 6
+  },
+  {
+    "name": "Excavation",
+    "type": {
+      "__type__": "RAW_MATERIAL"
+    },
+    "effect": {
+      "production": {
+        "STONE": 1,
+        "CLAY": 1
+      }
+    },
+    "cost": {
+      "gold": 1,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 4
+  },
+  {
+    "name": "Clay Pit",
+    "type": {
+      "__type__": "RAW_MATERIAL"
+    },
+    "effect": {
+      "production": {
+        "CLAY": 1,
+        "ORE": 1
+      }
+    },
+    "cost": {
+      "gold": 1,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Timber Yard",
+    "type": {
+      "__type__": "RAW_MATERIAL"
+    },
+    "effect": {
+      "production": {
+        "WOOD": 1,
+        "STONE": 1
+      }
+    },
+    "cost": {
+      "gold": 1,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Forest Cave",
+    "type": {
+      "__type__": "RAW_MATERIAL"
+    },
+    "effect": {
+      "production": {
+        "WOOD": 1,
+        "ORE": 1
+      }
+    },
+    "cost": {
+      "gold": 1,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 5
+  },
+  {
+    "name": "Mine",
+    "type": {
+      "__type__": "RAW_MATERIAL"
+    },
+    "effect": {
+      "production": {
+        "STONE": 1,
+        "ORE": 1
+      }
+    },
+    "cost": {
+      "gold": 1,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 6
+  },
+  {
+    "name": "Loom",
+    "type": {
+      "__type__": "MANUFACTURED_GOOD"
+    },
+    "effect": {
+      "production": {
+        "LOOM": 1
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Loom",
+    "type": {
+      "__type__": "MANUFACTURED_GOOD"
+    },
+    "effect": {
+      "production": {
+        "LOOM": 1
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 6
+  },
+  {
+    "name": "Glassworks",
+    "type": {
+      "__type__": "MANUFACTURED_GOOD"
+    },
+    "effect": {
+      "production": {
+        "GLASS": 1
+      }
+    },
+    "cost": {
+      "gold": 1,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Glassworks",
+    "type": {
+      "__type__": "MANUFACTURED_GOOD"
+    },
+    "effect": {
+      "production": {
+        "GLASS": 1
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 6
+  },
+  {
+    "name": "Press",
+    "type": {
+      "__type__": "MANUFACTURED_GOOD"
+    },
+    "effect": {
+      "production": {
+        "PAPYRUS": 1
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Press",
+    "type": {
+      "__type__": "MANUFACTURED_GOOD"
+    },
+    "effect": {
+      "production": {
+        "PAPYRUS": 1
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 6
+  },
+  {
+    "name": "East Trading Post",
+    "type": {
+      "__type__": "COMMERCIAL"
+    },
+    "effect": {
+      "discount": {
+        "resources": [
+          "CLAY",
+          "STONE",
+          "ORE",
+          "WOOD"
+        ],
+        "neighbor": [
+          "RIGHT"
+        ],
+        "price": 1
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "chainChildren": [
+      "Forum"
+    ],
+    "minPlayerCount": 3
+  },
+  {
+    "name": "East Trading Post",
+    "type": {
+      "__type__": "COMMERCIAL"
+    },
+    "effect": {
+      "discount": {
+        "resources": [
+          "CLAY",
+          "STONE",
+          "ORE",
+          "WOOD"
+        ],
+        "neighbor": [
+          "RIGHT"
+        ],
+        "price": 1
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "chainChildren": [
+      "Forum"
+    ],
+    "minPlayerCount": 7
+  },
+  {
+    "name": "Marketplace",
+    "type": {
+      "__type__": "COMMERCIAL"
+    },
+    "effect": {
+      "discount": {
+        "resources": [
+          "LOOM",
+          "GLASS",
+          "PAPYRUS"
+        ],
+        "neighbor": [
+          "LEFT",
+          "RIGHT"
+        ],
+        "price": 1
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "chainChildren": [
+      "Caravansery"
+    ],
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Marketplace",
+    "type": {
+      "__type__": "COMMERCIAL"
+    },
+    "effect": {
+      "discount": {
+        "resources": [
+          "LOOM",
+          "GLASS",
+          "PAPYRUS"
+        ],
+        "neighbor": [
+          "LEFT",
+          "RIGHT"
+        ],
+        "price": 1
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "chainChildren": [
+      "Caravansery"
+    ],
+    "minPlayerCount": 6
+  },
+  {
+    "name": "Tavern",
+    "type": {
+      "__type__": "COMMERCIAL"
+    },
+    "effect": {
+      "gold": 5
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 4
+  },
+  {
+    "name": "Tavern",
+    "type": {
+      "__type__": "COMMERCIAL"
+    },
+    "effect": {
+      "gold": 5
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 5
+  },
+  {
+    "name": "Tavern",
+    "type": {
+      "__type__": "COMMERCIAL"
+    },
+    "effect": {
+      "gold": 5
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 7
+  },
+  {
+    "name": "West Trading Post",
+    "type": {
+      "__type__": "COMMERCIAL"
+    },
+    "effect": {
+      "discount": {
+        "resources": [
+          "CLAY",
+          "STONE",
+          "ORE",
+          "WOOD"
+        ],
+        "neighbor": [
+          "LEFT"
+        ],
+        "price": 1
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "chainChildren": [
+      "Forum"
+    ],
+    "minPlayerCount": 3
+  },
+  {
+    "name": "West Trading Post",
+    "type": {
+      "__type__": "COMMERCIAL"
+    },
+    "effect": {
+      "discount": {
+        "resources": [
+          "CLAY",
+          "STONE",
+          "ORE",
+          "WOOD"
+        ],
+        "neighbor": [
+          "LEFT"
+        ],
+        "price": 1
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "chainChildren": [
+      "Forum"
+    ],
+    "minPlayerCount": 7
+  },
+  {
+    "name": "Altar",
+    "type": {
+      "__type__": "CIVILIAN"
+    },
+    "effect": {
+      "points": 2
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "chainChildren": [
+      "Temple"
+    ],
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Altar",
+    "type": {
+      "__type__": "CIVILIAN"
+    },
+    "effect": {
+      "points": 2
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "chainChildren": [
+      "Temple"
+    ],
+    "minPlayerCount": 5
+  },
+  {
+    "name": "Baths",
+    "type": {
+      "__type__": "CIVILIAN"
+    },
+    "effect": {
+      "points": 3
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "STONE": 1
+      }
+    },
+    "chainChildren": [
+      "Aquaduct"
+    ],
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Baths",
+    "type": {
+      "__type__": "CIVILIAN"
+    },
+    "effect": {
+      "points": 3
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "STONE": 1
+      }
+    },
+    "chainChildren": [
+      "Aquaduct"
+    ],
+    "minPlayerCount": 7
+  },
+  {
+    "name": "Pawnshop",
+    "type": {
+      "__type__": "CIVILIAN"
+    },
+    "effect": {
+      "points": 3
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 4
+  },
+  {
+    "name": "Pawnshop",
+    "type": {
+      "__type__": "CIVILIAN"
+    },
+    "effect": {
+      "points": 3
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "minPlayerCount": 7
+  },
+  {
+    "name": "Theater",
+    "type": {
+      "__type__": "CIVILIAN"
+    },
+    "effect": {
+      "points": 2
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "chainChildren": [
+      "Statue"
+    ],
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Theater",
+    "type": {
+      "__type__": "CIVILIAN"
+    },
+    "effect": {
+      "points": 2
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+      }
+    },
+    "chainChildren": [
+      "Statue"
+    ],
+    "minPlayerCount": 6
+  },
+  {
+    "name": "Apothecary",
+    "type": {
+      "__type__": "SCIENTIFIC"
+    },
+    "effect": {
+      "science": "COMPASS"
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "LOOM": 1
+      }
+    },
+    "chainChildren": [
+      "Stables",
+      "Dispensary"
+    ],
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Apothecary",
+    "type": {
+      "__type__": "SCIENTIFIC"
+    },
+    "effect": {
+      "science": "COMPASS"
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "LOOM": 1
+      }
+    },
+    "chainChildren": [
+      "Stables",
+      "Dispensary"
+    ],
+    "minPlayerCount": 6
+  },
+  {
+    "name": "Scriptorium",
+    "type": {
+      "__type__": "SCIENTIFIC"
+    },
+    "effect": {
+      "science": "TABLET"
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "PAPYRUS": 1
+      }
+    },
+    "chainChildren": [
+      "Courthouse",
+      "Library"
+    ],
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Scriptorium",
+    "type": {
+      "__type__": "SCIENTIFIC"
+    },
+    "effect": {
+      "science": "TABLET"
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "PAPYRUS": 1
+      }
+    },
+    "chainChildren": [
+      "Courthouse",
+      "Library"
+    ],
+    "minPlayerCount": 4
+  },
+  {
+    "name": "Workshop",
+    "type": {
+      "__type__": "SCIENTIFIC"
+    },
+    "effect": {
+      "science": "WHEEL"
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "GLASS": 1
+      }
+    },
+    "chainChildren": [
+      "Archery Range",
+      "Laboratory"
+    ],
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Workshop",
+    "type": {
+      "__type__": "SCIENTIFIC"
+    },
+    "effect": {
+      "science": "WHEEL"
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "GLASS": 1
+      }
+    },
+    "chainChildren": [
+      "Archery Range",
+      "Laboratory"
+    ],
+    "minPlayerCount": 7
+  },
+  {
+    "name": "Barracks",
+    "type": {
+      "__type__": "MILITARY"
+    },
+    "effect": {
+      "military": 1
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "ORE": 1
+      }
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Barracks",
+    "type": {
+      "__type__": "MILITARY"
+    },
+    "effect": {
+      "military": 1
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "ORE": 1
+      }
+    },
+    "minPlayerCount": 5
+  },
+  {
+    "name": "Guard Tower",
+    "type": {
+      "__type__": "MILITARY"
+    },
+    "effect": {
+      "military": 1
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "CLAY": 1
+      }
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Guard Tower",
+    "type": {
+      "__type__": "MILITARY"
+    },
+    "effect": {
+      "military": 1
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "CLAY": 1
+      }
+    },
+    "minPlayerCount": 4
+  },
+  {
+    "name": "Stockade",
+    "type": {
+      "__type__": "MILITARY"
+    },
+    "effect": {
+      "military": 1
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 1
+      }
+    },
+    "minPlayerCount": 3
+  },
+  {
+    "name": "Stockade",
+    "type": {
+      "__type__": "MILITARY"
+    },
+    "effect": {
+      "military": 1
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 1
+      }
+    },
+    "minPlayerCount": 7
+  }
+]

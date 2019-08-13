@@ -1,0 +1,284 @@
+[
+  {
+    "name": "Builders Guild",
+    "type": {
+      "__type__": "GUILD"
+    },
+    "effect": {
+      "perBoardElement": {
+        "neighbors": [
+          "LEFT",
+          "SELF",
+          "RIGHT"
+        ],
+        "gold": 0,
+        "points": 1,
+        "type": "WONDER_STAGES"
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "STONE": 2,
+        "CLAY": 2,
+        "GLASS": 1
+      }
+    }
+  },
+  {
+    "name": "Craftsmens Guild",
+    "type": {
+      "__type__": "GUILD"
+    },
+    "effect": {
+      "perBoardElement": {
+        "neighbors": [
+          "LEFT",
+          "RIGHT"
+        ],
+        "gold": 0,
+        "points": 2,
+        "type": "CARD",
+        "cardType": [
+          {
+            "__type__": "MANUFACTURED_GOOD"
+          }
+        ]
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "STONE": 2,
+        "ORE": 2
+      }
+    }
+  },
+  {
+    "name": "Magistrates Guild",
+    "type": {
+      "__type__": "GUILD"
+    },
+    "effect": {
+      "perBoardElement": {
+        "neighbors": [
+          "LEFT",
+          "RIGHT"
+        ],
+        "gold": 0,
+        "points": 1,
+        "type": "CARD",
+        "cardType": [
+          {
+            "__type__": "CIVILIAN"
+          }
+        ]
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 3,
+        "STONE": 1,
+        "LOOM": 1
+      }
+    }
+  },
+  {
+    "name": "Philosophers Guild",
+    "type": {
+      "__type__": "GUILD"
+    },
+    "effect": {
+      "perBoardElement": {
+        "neighbors": [
+          "LEFT",
+          "RIGHT"
+        ],
+        "gold": 0,
+        "points": 1,
+        "type": "CARD",
+        "cardType": [
+          {
+            "__type__": "SCIENTIFIC"
+          }
+        ]
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "CLAY": 3,
+        "LOOM": 1,
+        "PAPYRUS": 1
+      }
+    }
+  },
+  {
+    "name": "Scientists Guild",
+    "type": {
+      "__type__": "GUILD"
+    },
+    "effect": {
+      "science": "ANY"
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 2,
+        "ORE": 2,
+        "PAPYRUS": 1
+      }
+    }
+  },
+  {
+    "name": "Shipowners Guild",
+    "type": {
+      "__type__": "GUILD"
+    },
+    "effect": {
+      "perBoardElement": {
+        "neighbors": [
+          "SELF"
+        ],
+        "gold": 0,
+        "points": 1,
+        "type": "CARD",
+        "cardType": [
+          {
+            "__type__": "RAW_MATERIAL"
+          },
+          {
+            "__type__": "MANUFACTURED_GOOD"
+          },
+          {
+            "__type__": "GUILD"
+          }
+        ]
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 3,
+        "GLASS": 1,
+        "PAPYRUS": 1
+      }
+    }
+  },
+  {
+    "name": "Spies Guild",
+    "type": {
+      "__type__": "GUILD"
+    },
+    "effect": {
+      "perBoardElement": {
+        "neighbors": [
+          "LEFT",
+          "RIGHT"
+        ],
+        "gold": 0,
+        "points": 1,
+        "type": "CARD",
+        "cardType": [
+          {
+            "__type__": "MILITARY"
+          }
+        ]
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "CLAY": 3,
+        "GLASS": 1
+      }
+    }
+  },
+  {
+    "name": "Strategists Guild",
+    "type": {
+      "__type__": "GUILD"
+    },
+    "effect": {
+      "perBoardElement": {
+        "neighbors": [
+          "LEFT",
+          "RIGHT"
+        ],
+        "gold": 0,
+        "points": 1,
+        "type": "DEFEAT_TOKEN"
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "STONE": 1,
+        "ORE": 2,
+        "LOOM": 1
+      }
+    }
+  },
+  {
+    "name": "Traders Guild",
+    "type": {
+      "__type__": "GUILD"
+    },
+    "effect": {
+      "perBoardElement": {
+        "neighbors": [
+          "LEFT",
+          "RIGHT"
+        ],
+        "gold": 0,
+        "points": 1,
+        "type": "CARD",
+        "cardType": [
+          {
+            "__type__": "COMMERCIAL"
+          }
+        ]
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "GLASS": 1,
+        "PAPYRUS": 1,
+        "LOOM": 1
+      }
+    }
+  },
+  {
+    "name": "Workers Guild",
+    "type": {
+      "__type__": "GUILD"
+    },
+    "effect": {
+      "perBoardElement": {
+        "neighbors": [
+          "LEFT",
+          "RIGHT"
+        ],
+        "gold": 0,
+        "points": 1,
+        "type": "CARD",
+        "cardType": [
+          {
+            "__type__": "RAW_MATERIAL"
+          }
+        ]
+      }
+    },
+    "cost": {
+      "gold": 0,
+      "resources": {
+        "WOOD": 1,
+        "ORE": 2,
+        "STONE": 1,
+        "CLAY": 1
+      }
+    }
+  }
+]
