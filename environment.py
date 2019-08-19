@@ -29,6 +29,7 @@ class GameEnvironment(py_environment.PyEnvironment):
         self.age = 1
         self.turn = 1
         self.players = self.create_players()
+        self.current_player_scores = [0 for _ in range(self.player_count)]
         self.player_decks = self.shuffle_age_structures()
         self.player_deck_offset = 0
         self.discarded_structures = []
@@ -82,7 +83,6 @@ class GameEnvironment(py_environment.PyEnvironment):
         return time_step.restart(self.to_observation())
 
     def _step(self, player_actions):
-        rewards_malus = 0
         player_index = self.current_player_index
 
         player_action = Action(int(player_actions[0]))
@@ -90,7 +90,13 @@ class GameEnvironment(py_environment.PyEnvironment):
 
         player = self.players[player_index]
         player_deck = self.player_deck(player_index)
-        if structure_index < len(player_deck):
+        reward_malus = 0
+
+        game_running = self.age <= 3
+        if game_running:
+            if structure_index >= len(player_deck):
+                structure_index = len(player_deck) - 1
+
             structure = player_deck.pop(structure_index)
             try:
                 if player_action == Action.BUILD_STRUCTURE:
@@ -99,23 +105,23 @@ class GameEnvironment(py_environment.PyEnvironment):
                     player.build_wonder_stage()
                 elif player_action == Action.DISCARD:
                     player.discard_structure()
-                #print("Player " + str(player_index) + " choose to " + player_action.name + " " + structure['name'])
+                # print("Player " + str(player_index) + " choose to " + player_action.name + " " + structure['name'])
             except ImpossibleBuildException:
-                #print("Player " + str(player_index) + " cannot " + player_action.name + " card " + structure['name'])
-                rewards_malus = -100
-        else:
-            #print("Player " + str(player_index) + " cannot play card " + str(structure_index))
-            rewards_malus = -100
+                player.discard_structure()
+                #reward_malus = -100
 
-        self.finish_player_turn()
+            self.finish_player_turn()
 
         observation = self.to_observation()
-        reward = self.calculate_reward(player_index) + rewards_malus
+        # reward is only point from this turn
+        reward = self.calculate_reward(player_index) + reward_malus
 
-        if self.age > 3:
-            return time_step.termination(observation, reward)
-        else:
+        if game_running:
+            print("transition player " + str(self.current_player_index) + " action " + str(player_action.name)
+                  + " turn " + str(self.turn) + " age " + str(self.age) + " reward " + str(reward))
             return time_step.transition(observation, reward)
+        else:
+            return time_step.termination(observation, reward)
 
     def finish_player_turn(self):
         self.current_player_index = (self.current_player_index + 1) % self.player_count
@@ -125,12 +131,9 @@ class GameEnvironment(py_environment.PyEnvironment):
                 self.finish_age()
 
     def finish_turn(self):
-        #print("finished turn " + str(self.turn))
         self.turn += 1
 
     def finish_age(self):
-        #print("finished age " + str(self.age))
-
         self.age += 1
         self.turn = 1
 
@@ -183,5 +186,8 @@ class GameEnvironment(py_environment.PyEnvironment):
         return self.player_decks[(player_index + self.player_deck_offset) % self.player_count]
 
     def calculate_reward(self, player_index):
-        return self.players[player_index].score()
+        new_player_score = self.players[player_index].score()
+        reward = new_player_score - self.current_player_scores[player_index]
+        self.current_player_scores[player_index] = new_player_score
+        return reward
 

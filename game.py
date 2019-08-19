@@ -84,9 +84,12 @@ class Player:
         self.apply_effect(structure['effect'], structure['type'])
 
     def build_wonder_stage(self):
+        if self.wonder_stage >= len(self.wonder['stages']):
+            raise ImpossibleBuildException('no more wonder stage to build')
+
         cost = self.build_cost(self.wonder['stages'][self.wonder_stage]['cost'])
         if cost is None or self.coins < cost:
-            raise ImpossibleBuildException('cannot build wonder stage')
+            raise ImpossibleBuildException('cannot pay for the wonder stage cost')
 
         self.coins -= cost
         self.wonder_stage += 1
