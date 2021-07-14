@@ -710,7 +710,9 @@
       "__type__": "SCIENTIFIC"
     },
     "effect": {
-      "science": "COMPASS"
+      "science": {
+        "__science__": "COMPASS"
+      }
     },
     "cost": {
       "gold": 0,
@@ -730,7 +732,9 @@
       "__type__": "SCIENTIFIC"
     },
     "effect": {
-      "science": "COMPASS"
+      "science": {
+        "__science__": "COMPASS"
+      }
     },
     "cost": {
       "gold": 0,
@@ -750,7 +754,9 @@
       "__type__": "SCIENTIFIC"
     },
     "effect": {
-      "science": "TABLET"
+      "science": {
+        "__science__": "TABLET"
+      }
     },
     "cost": {
       "gold": 0,
@@ -770,7 +776,9 @@
       "__type__": "SCIENTIFIC"
     },
     "effect": {
-      "science": "TABLET"
+      "science": {
+        "__science__": "TABLET"
+      }
     },
     "cost": {
       "gold": 0,
@@ -790,7 +798,9 @@
       "__type__": "SCIENTIFIC"
     },
     "effect": {
-      "science": "WHEEL"
+      "science": {
+        "__science__": "WHEEL"
+      }
     },
     "cost": {
       "gold": 0,
@@ -810,7 +820,9 @@
       "__type__": "SCIENTIFIC"
     },
     "effect": {
-      "science": "WHEEL"
+      "science": {
+        "__science__": "WHEEL"
+      }
     },
     "cost": {
       "gold": 0,

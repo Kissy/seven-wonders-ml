@@ -140,7 +140,9 @@
             },
             "effects": [
               {
-                "science": "ANY"
+                "science": {
+                  "__science__": "ANY"
+                }
               }
             ]
           },
@@ -202,7 +204,9 @@
             },
             "effects": [
               {
-                "science": "ANY"
+                "science": {
+                  "__science__": "ANY"
+                }
               }
             ]
           }

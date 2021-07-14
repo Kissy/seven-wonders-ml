@@ -120,7 +120,9 @@
       "__type__": "GUILD"
     },
     "effect": {
-      "science": "ANY"
+      "science": {
+        "__science__": "ANY"
+      }
     },
     "cost": {
       "gold": 0,

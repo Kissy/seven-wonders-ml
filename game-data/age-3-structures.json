@@ -117,7 +117,9 @@
         "points": 2,
         "type": "CARD",
         "cardType": [
-          { "__type__": "MANUFACTURED_GOOD" }
+          {
+            "__type__": "MANUFACTURED_GOOD"
+          }
         ]
       }
     },
@@ -202,7 +204,9 @@
         "points": 1,
         "type": "CARD",
         "cardType": [
-          { "__type__": "MANUFACTURED_GOOD" }
+          {
+            "__type__": "MANUFACTURED_GOOD"
+          }
         ]
       }
     },
@@ -230,7 +234,9 @@
         "points": 1,
         "type": "CARD",
         "cardType": [
-          { "__type__": "MANUFACTURED_GOOD" }
+          {
+            "__type__": "MANUFACTURED_GOOD"
+          }
         ]
       }
     },
@@ -464,7 +470,9 @@
       "__type__": "SCIENTIFIC"
     },
     "effect": {
-      "science": "COMPASS"
+      "science": {
+        "__science__": "COMPASS"
+      }
     },
     "cost": {
       "gold": 0,
@@ -482,7 +490,9 @@
       "__type__": "SCIENTIFIC"
     },
     "effect": {
-      "science": "COMPASS"
+      "science": {
+        "__science__": "COMPASS"
+      }
     },
     "cost": {
       "gold": 0,
@@ -500,7 +510,9 @@
       "__type__": "SCIENTIFIC"
     },
     "effect": {
-      "science": "COMPASS"
+      "science": {
+        "__science__": "COMPASS"
+      }
     },
     "cost": {
       "gold": 0,
@@ -519,7 +531,9 @@
       "__type__": "SCIENTIFIC"
     },
     "effect": {
-      "science": "COMPASS"
+      "science": {
+        "__science__": "COMPASS"
+      }
     },
     "cost": {
       "gold": 0,
@@ -538,7 +552,9 @@
       "__type__": "SCIENTIFIC"
     },
     "effect": {
-      "science": "WHEEL"
+      "science": {
+        "__science__": "WHEEL"
+      }
     },
     "cost": {
       "gold": 0,
@@ -557,7 +573,9 @@
       "__type__": "SCIENTIFIC"
     },
     "effect": {
-      "science": "WHEEL"
+      "science": {
+        "__science__": "WHEEL"
+      }
     },
     "cost": {
       "gold": 0,
@@ -576,7 +594,9 @@
       "__type__": "SCIENTIFIC"
     },
     "effect": {
-      "science": "WHEEL"
+      "science": {
+        "__science__": "WHEEL"
+      }
     },
     "cost": {
       "gold": 0,
@@ -595,7 +615,9 @@
       "__type__": "SCIENTIFIC"
     },
     "effect": {
-      "science": "WHEEL"
+      "science": {
+        "__science__": "WHEEL"
+      }
     },
     "cost": {
       "gold": 0,
@@ -614,7 +636,9 @@
       "__type__": "SCIENTIFIC"
     },
     "effect": {
-      "science": "TABLET"
+      "science": {
+        "__science__": "TABLET"
+      }
     },
     "cost": {
       "gold": 0,
@@ -633,7 +657,9 @@
       "__type__": "SCIENTIFIC"
     },
     "effect": {
-      "science": "TABLET"
+      "science": {
+        "__science__": "TABLET"
+      }
     },
     "cost": {
       "gold": 0,

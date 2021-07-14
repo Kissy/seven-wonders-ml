@@ -26,6 +26,13 @@ class Resource(Enum):
     GLASS = 7
 
 
+class Science(Enum):
+    WHEEL = 1
+    COMPASS = 2
+    TABLET = 3
+    ANY = 4
+
+
 class ImpossibleBuildException(Exception):
     def __init__(self, *args, **kwargs):
         Exception.__init__(self, *args, **kwargs)
